@@ -1,0 +1,187 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+  margin: 0px 5px;
+  background-color:aliceblue;
+   word-wrap: break-word;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    /* position: fixed; */
+    /* position:; */
+    
+    background-color: aliceblue;
+    padding: 1%;
+    
+}
+
+.website-name a{
+    font-size: 40px;
+    color: #252525;
+}
+
+
+
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;    
+    
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+   
+    margin-top: 2px;
+    margin-bottom: 20px;
+
+}
+
+.nav-bar a{
+    font-size: 21px;
+    color: #252525;
+    margin: 2% 5%;
+}
+
+.nav-bar a:hover{
+     text-decoration: underline;
+}
+
+.baner-img{
+    background-image: url(img/10065.png) ;
+    /* background-size: cover; */
+    height: 500px;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    
+}
+
+/* FOR HIM CSS */
+
+.him{
+    margin: 10px 0px;
+}
+
+.him h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+    font-family: ' Arial, sans-serif' ;    
+}
+
+.him-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    flex-wrap: wrap;
+    
+}
+
+.him-img img{
+    height: 350px;
+    width: 90%;
+    margin: 10px;
+    transition: transform .2s;
+}
+
+.him-img img:hover{
+    transform: scale(1.02);
+   
+    box-shadow: 5px #252525;
+    
+}
+
+.him-img a{
+    color: #252525;
+    text-align: center;
+    
+}
+
+.him-img p{
+    padding: 3% 0%;
+    word-spacing: 2PX;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+.hr{
+    margin: 5% 5%;
+    border: 2px solid #252525;
+    width: 90%;
+}
+
+.footer-name{
+    text-align: center;
+    font-weight: 10;
+    margin: 2% ;
+    margin-bottom: 5%;
+}
+
+.footer-detile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-detile p{
+    margin: 10px 5px;
+}
+
+.footer-detile-1{
+    margin-left: 2%;
+}
+
+.footer-detile-3{
+    margin-right: 5%;
+    word-wrap: break-word;
+    width: 30%;
+}
+
+.copyright{
+    text-align: center;
+    margin: 2%;
+}
+
+.copyright p{
+    margin: 1%;
+}
+
+/* <-----------------------------------------------------------------------------------------------------> */
+
+@media only screen and (max-width: 550px) {
+   
+
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+    .footer-detile{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+
+    .footer-detile-3{
+      /* margin-left: 40%; */
+      /* text-align: center; */
+      width: 100%;
+    }
+  }
+
+
+
